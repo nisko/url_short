@@ -25,5 +25,6 @@ from rest_framework import routers
 from shorter.shorterapp import views
 
 urlpatterns = [
-    path('', views.hello_world),
+    path('get_short', views.get_short),
+    path('get_long', views.get_long),
 ]
